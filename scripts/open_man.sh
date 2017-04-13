@@ -4,7 +4,6 @@ source $CURRENT_DIR/variables.sh
 source $CURRENT_DIR/helpers.sh
 
 function prepare_man_cmd() {
-  set -o history -o histexpand
   TMUX_RTFM_SPLIT="$(get_tmux_option "$rtfm_open_in_split")"
   CLIP_MODE="$(get_tmux_option "$rtfm_clip_mode")"
   # must we use a swap file?

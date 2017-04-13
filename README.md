@@ -4,8 +4,10 @@ Quickly open the man page of a command in a split or in the current window.
 The commmand must be put in the paste-buffer by using the mouse to get a selection.
 
 the plugin works by:
-  1- saving the command name (the paste buffer content) into a temporary swap file then opening the "man" command with the contents of this file as input.
-  2- launching the "man" command with the content of the system clipboard as input (shift+mouse selection, xclip needed)
+ 
+
+ 1. saving the command name (the paste buffer content) into a temporary swap file then opening the "man" command with the contents of this file as input.   
+ 2. launching the "man" command with the content of the system clipboard as input (shift+mouse selection, xclip needed)
 
 ## Configuration ##
 
